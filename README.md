@@ -21,3 +21,7 @@ rm -rf node_modules
 cd -
 php artisan nova:publish
 ```
+
+## Git Flow
+
+1. <b> Successful Git Branching Model</b> [more](https://nvie.com/posts/a-successful-git-branching-model/)
