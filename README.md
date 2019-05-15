@@ -25,3 +25,4 @@ php artisan nova:publish
 ## Git Flow
 
 1. <b> Successful Git Branching Model</b> [more](https://nvie.com/posts/a-successful-git-branching-model/)
+2. <b> Prevet Commits on Master Branch </b> [more](https://stackoverflow.com/questions/40462111/git-prevent-commits-in-master-branch)
