@@ -30,12 +30,16 @@ php artisan nova:publish
 4. <b> Git Cheat Sheet </b> [more](https://github.com/ronnytorresmtz/tutorials/blob/master/atlassian-git-cheatsheet.pdf)
 5. <b> Git Basics Instructions </b>
  
- a. Create a new repository on the command line 
-...
-echo "# test" >> README.md
+- Create a new repository on the command line 
+```
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ronnytorresmtz/test.git
 git push -u origin master
-...
+```
+- Push an existing repository from the command line
+```
+git remote add origin https://github.com/ronnytorresmtz/test.git
+git push -u origin master
+```
