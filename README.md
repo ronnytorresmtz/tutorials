@@ -43,3 +43,33 @@ git push -u origin master
 git remote add origin https://github.com/ronnytorresmtz/test.git
 git push -u origin master
 ```
+- List all branches (local and remotes)
+```
+git branch -a
+```
+- Create a new branch, named develop and switch to develop branch
+```
+git checkout -b develop
+```
+- Change to master branch
+```
+git checkout master
+```
+- Add all file to stage
+```
+git add .
+```
+- Commit changes for the file in stage with a commit description
+```
+git commit -m "first commit"
+```
+- Merge the changes from the develop branch to the master branch
+```
+git checkout master
+git branch (== to be sure we are in master branch ==)
+git merge develop --no-ff
+```
+- Push our changes to our remote repository
+```
+git push
+```
