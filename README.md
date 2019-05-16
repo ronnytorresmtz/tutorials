@@ -29,7 +29,8 @@ php artisan nova:publish
 3. <b> Git Guide from Attlasian </b> [more](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 4. <b> Git Cheat Sheet </b> [more](https://github.com/ronnytorresmtz/tutorials/blob/master/atlassian-git-cheatsheet.pdf)
 5. <b> Git Basics Instructions </b>
- 
+
+### Create Repository
 - Create a new repository on the command line 
 ```
 git init
@@ -47,6 +48,7 @@ git push -u origin master
 ```
 git branch -a
 ```
+### Create Develop Branch
 - Create a new branch, named develop and switch to develop branch
 ```
 git checkout -b develop
@@ -55,6 +57,7 @@ git checkout -b develop
 ```
 git checkout master
 ```
+### Commit Changes and Push to Branch
 - Add all file to stage
 ```
 git add .
@@ -63,13 +66,15 @@ git add .
 ```
 git commit -m "first commit"
 ```
-- Merge the changes from the develop branch to the master branch
-```
-git checkout master
-git branch (== to be sure we are in master branch ==)
-git merge develop --no-ff
-```
 - Push our changes to our remote repository
 ```
 git push
 ```
+### Merge Develop Branch to Master Branch
+- Merge the changes from the develop branch to the master branch
+```
+git checkout master
+git branch (== to be sure we are in master branch ==)
+git merge develop --no-ff (== without losing the develop branch history ==)
+```
+
