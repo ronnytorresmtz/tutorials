@@ -26,3 +26,5 @@ php artisan nova:publish
 
 1. <b> Successful Git Branching Model</b> [more](https://nvie.com/posts/a-successful-git-branching-model/)
 2. <b> Prevet Commits on Master Branch </b> [more](https://stackoverflow.com/questions/40462111/git-prevent-commits-in-master-branch)
+3. <b> Git Guide from Attlasian </b> [more](https://www.atlassian.com/git/tutorials/syncing)
+4.-<b> Git Cheat Sheet </b> [more]()
